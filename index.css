@@ -15,6 +15,10 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#col{
+  color: red;
+}
 #container {
   display: flex;
   /* width: 100%; */

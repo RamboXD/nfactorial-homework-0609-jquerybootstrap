@@ -5,7 +5,7 @@ $('document').ready(function(){
         var role = $("input[id='rl']").val();
         var adverb = $("input[id='ab']").val();
         var adjective = $("input[id='ae']").val();
-        
-        $('#result').text('Бір күні '+ name + ' ' + adverb+ ' келе жатып, '+ adjective+' '+role+' туралы ойлады');
+
+        $('#result').html(`Бір күні <span id=col>${name}</span> <span id=col>${adverb}</span> келе жатып, <span id=col>${adjective}</span> <span id=col>${role}</span> туралы ойлады`);
     });
 });
